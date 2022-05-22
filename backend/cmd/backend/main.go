@@ -27,5 +27,5 @@ func main() {
 	router, closeable := createRouter()
 	defer closeable()
 
-	router.Run(":8001")
+	router.Run(":8080")
 }
